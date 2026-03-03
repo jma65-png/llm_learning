@@ -10,4 +10,7 @@
 - 为了防止指数爆炸，我们引入常数 $C = \max(x)$ 利用平移不变性进行计算：
 
 $$\text{Softmax}(x_i) = \frac{\exp(x_i - \max(x))}{\sum_{j} \exp(x_j - \max(x))}$$
+- [x] 高维空间向量几乎垂直
+
+
 
